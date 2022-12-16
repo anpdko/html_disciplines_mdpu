@@ -1,0 +1,152 @@
+
+.admin_panel{
+   display: grid;
+   grid-template-columns: 230px 1fr;
+   min-height: 100vh;
+   font-size: 1.2rem;
+}
+
+.admin_panel * {
+   box-sizing: border-box;
+}
+
+.dashboard{
+   background-color: #1C3A60;
+   color: white;
+   height: 100%;
+   padding: 20px;
+}
+
+.dashboard h3{
+   text-align: center;
+   margin-bottom: 70px;
+}
+
+.dashboard ul{
+   margin: 10px;
+   padding: 0;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   gap: 20px;
+}
+
+.dashboard li{
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   cursor: pointer;
+}
+
+.dashboard span{
+   padding: 4px;
+}
+
+
+.dashboard span.active{
+   border-bottom: 2px solid white;
+}
+
+.panel{
+   box-sizing: border-box;
+   margin: 20px;
+}
+
+
+.filter{
+   box-sizing: border-box;
+   padding-block: 20px 50px;
+   border-bottom: 3px solid #1C3A6055;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.filter .inputs {
+   display: flex;
+   align-items: center;
+   gap: 20px;
+}
+
+.filter .buts{
+   display: flex;
+   align-items: center;
+   gap: 10px;
+}
+
+.table_data{
+   padding-block: 30px;
+}
+
+.table_data table{
+   width: 100%;
+}
+
+.table_data tr:nth-of-type(even) {
+   background: #1C3A6022;
+}
+
+.table_data th, td{
+   padding: 5px 10px;
+   font-size: 0.9rem;
+   text-align: center;
+}
+
+.btn_trash{
+   font-size: 1.1rem;
+   color: 10;
+   background: #F34C3F;
+   color: white;
+   outline: none;
+   border: 0;
+   padding: 5px 10px 1px 10px;
+   border: 2px solid #b9000f;
+   border-radius: 4px;
+   cursor: pointer;
+   transition: transform 0.2s;
+}
+
+.btn_trash:hover{
+   background: #b9000f;
+   transform: scale(1.1);
+}
+
+.btn_trash:active{
+   background: #b9000f;
+   transform: scale(0.95);
+}
+
+.pagination{
+   margin-top: 30px;
+   display: flex;
+   justify-content: center;
+}
+
+.pagination ul{
+   display: flex;
+   padding: 0;
+   gap: 5px;
+}
+
+.pagination li{
+   list-style: none;
+}
+
+.pagination a{
+   padding: 4px 10px;
+   min-width: 40px;
+   text-align: center;
+   background-color: #1C3A6022;
+   color: #1C3A60;
+   border-radius: 4px;
+   transition: all 0.3s;
+}
+
+.pagination a:hover{
+   box-shadow: 0 0 3px 1px #1C3A6088;
+}
+
+.pagination li.active a{
+   background-color: #1C3A60;
+   color: white;
+}

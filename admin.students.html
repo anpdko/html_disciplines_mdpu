@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./css/styles.css">
+   <link rel="stylesheet" href="./css/admin.css">
+   <title>Admin Students</title>
+</head>
+<body>
+   <div class="admin_panel">
+      <nav class="dashboard">
+         <h3>Admin Panel</h3>
+         <ul>
+            <li>
+               <a href="./admin.students.html">
+                  <i class="bi bi-people-fill"></i>
+                  <span class="active">Students</span>
+               </a>
+            </li>
+            <li>
+               <a href="./admin.disciplines.html">
+                  <i class="bi bi-book-fill"></i>
+                  <span>Disciplines</span>
+               </a>
+            </li>
+            <li>
+               <a href="./auth.html">
+                  <i class="bi bi-box-arrow-left"></i>
+                  <span>Выход</span>
+               </a>
+            </li> 
+         </ul>
+      </nav>
+      <div class="panel">
+         <div class="filter">
+            <div class="inputs">
+               <div class="box_input">
+                  <i class="bi bi-search"></i>
+                  <input type="text" placeholder="...">
+               </div>
+               <button class="btn">Пошук</button>
+            </div>
+            <div class="buts">
+               <button class="btn icon">
+                  <i class="bi bi-file-earmark-arrow-up-fill"></i> 
+                  зразок заповнення
+               </button>
+               <button class="btn icon">
+                  <i class="bi bi-file-earmark-arrow-down-fill"></i> 
+                  дані студентів
+               </button>
+            </div>
+         </div>
+         <div class="table_data">
+            <table>
+               <tr>
+                  <th>Surname</th>
+                  <th>Name</th>
+                  <th>Patronymic</th>
+                  <th>Email</th>
+                  <th>Rank</th>
+                  <th>Educational level</th>
+                  <th>Groups</th>
+                  <th>Specialty</th>
+                  <th>Department</th>
+                  <th></th>
+               </tr>
+               <tr>
+                  <td>Прядко</td>
+                  <td>Андрій</td>
+                  <td>Олексійович</td>
+                  <td>anpdko@gmail.com</td>
+                  <td>1234</td>
+                  <td>master</td>
+                  <td>822M-I</td>
+                  <td>Професійна освіта. комп'ютерні науки</td>
+                  <td>0998</td>
+                  <td><button class="btn_trash"><i class="bi bi-trash-fill"></i></button></td>
+               </tr>
+               <tr>
+                  <td>Прядко</td>
+                  <td>Андрій</td>
+                  <td>Олексійович</td>
+                  <td>anpdko@gmail.com</td>
+                  <td>1234</td>
+                  <td>master</td>
+                  <td>822M-I</td>
+                  <td>Професійна освіта. комп'ютерні науки</td>
+                  <td>0998</td>
+                  <td><button class="btn_trash"><i class="bi bi-trash-fill"></i></button></td>
+               </tr>
+               <tr>
+                  <td>Прядко</td>
+                  <td>Андрій</td>
+                  <td>Олексійович</td>
+                  <td>anpdko@gmail.com</td>
+                  <td>1234</td>
+                  <td>master</td>
+                  <td>822M-I</td>
+                  <td>Професійна освіта. комп'ютерні науки</td>
+                  <td>0998</td>
+                  <td><button class="btn_trash"><i class="bi bi-trash-fill"></i></button></td>
+               </tr>
+            </table>
+            
+            <div class="pagination">
+               <ul>
+                  <li><a href=""><<</a></li>
+                  <li><a href=""><</a></li>
+                  <li class="active"><a href="">1</a></li>
+                  <li><a href="">2</a></li>
+                  <li><a href="">3</a></li>
+                  <li><a href="">></a></li>
+                  <li><a href="">>></a></li>
+               </ul>
+            </div>
+         </div>
+      </div>
+   </div>
+</body>
+</html>
