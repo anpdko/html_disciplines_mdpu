@@ -115,38 +115,3 @@
    background: #b9000f;
    transform: scale(0.95);
 }
-
-.pagination{
-   margin-top: 30px;
-   display: flex;
-   justify-content: center;
-}
-
-.pagination ul{
-   display: flex;
-   padding: 0;
-   gap: 5px;
-}
-
-.pagination li{
-   list-style: none;
-}
-
-.pagination a{
-   padding: 4px 10px;
-   min-width: 40px;
-   text-align: center;
-   background-color: #1C3A6022;
-   color: #1C3A60;
-   border-radius: 4px;
-   transition: all 0.3s;
-}
-
-.pagination a:hover{
-   box-shadow: 0 0 3px 1px #1C3A6088;
-}
-
-.pagination li.active a{
-   background-color: #1C3A60;
-   color: white;
-}
